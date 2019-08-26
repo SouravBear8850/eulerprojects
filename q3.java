@@ -2,7 +2,7 @@ package questions;
 
 public class q3 {
 
-  public void main(String[] args) {
+  public static void main(String[] args) {
    int count=0;
      for(int i=1;i>0;i++)
      {
@@ -14,7 +14,8 @@ public class q3 {
      break;}
      }
   }
-public boolean isPrime(int numm) {
+public static boolean isprime(int numm)
+
     if (numm <= 1) {
         return false;
     }
@@ -33,7 +34,7 @@ public boolean isPrime(int numm) {
         if (numm % counter == 0) {
             return false;
         } else {
-            counter +=2;
+            counter +=2
         }
     }
 
