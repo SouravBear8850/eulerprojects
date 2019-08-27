@@ -10,10 +10,10 @@ public class q16 {
   }
   public static int powerdigsum(double num)
   {int sum=0;
-    while(num!=0)
+    while(num>0)
     { double dig=num%10;
       num=num/10;
-     sum=sum+(int)num;
+     sum=sum+(int)dig;
     }
     return sum;
     
