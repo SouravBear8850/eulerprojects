@@ -2,18 +2,18 @@
 
 public class q16 {
 
-  public  void main(String[] args) {
-   double num=0;
+  public  static void main(String[] args) {
+   double num=0;int sum;
    num= Math.pow(2,1000);
-   int sum=powerdigsum(num);
-   System.out.print("sum");
+   sum=powerdigsum(num);
+   System.out.print(sum);
   }
-  public int powerdigsum(double num)
-  {int sum;
+  public static int powerdigsum(double num)
+  {int sum=0;
     while(num!=0)
     { double dig=num%10;
       num=num/10;
-     sum=sum+num;
+     sum=sum+(int)num;
     }
     return sum;
     
