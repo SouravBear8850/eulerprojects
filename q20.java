@@ -7,11 +7,11 @@ public class q20 {
      {
        p=p*i;
      }
-     while(p<0)
+     while(p>0)
      {
      dig=p%10;
      p=p/10;
-     sum=sum+p;}
+     sum=sum+dig;}
      System.out.print("sum of digits of 100!="+sum);
   }
 
