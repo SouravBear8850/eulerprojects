@@ -4,7 +4,7 @@ public class q10 {
 
   public static void main(String[] args) 
 {
-    long i,sum=0;
+    long i,sum=2;
     int c;
     for(i=3;i<=2000000;i=i+2)
     {
