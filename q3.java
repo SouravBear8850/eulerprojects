@@ -3,8 +3,8 @@ public class q3{
 
 
   public static void main(String[] args) {
-   int count=0;
-     for(int i=1;i>0;i++)
+   int count=1;
+     for(int i=3;i>0;i=i+2)
      {
        if(isPrime(i)==1)
        count++;
