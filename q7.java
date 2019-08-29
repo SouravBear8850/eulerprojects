@@ -5,11 +5,11 @@ public class q7 {
     long c=5;
     for(i=11 ;i<=100000;i=i+2)
     {
-      for(long j=2;j<=i/2;j++)
+      for(long j=2;j<=i/2;j=j+2)
       {
         if(i%j==0)
         c++;
-        i=i/j;
+        
       }
       if(c==10001)
      { num=i;
