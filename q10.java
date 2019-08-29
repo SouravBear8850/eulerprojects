@@ -9,7 +9,7 @@ public class q10 {
     for(i=3;i<=2000000;i=i+2)
     {
       c=0;
-      for(int j=2;j<=i/2;j++)
+      for(int j=3;j<=i/2;j=j+2)
       {
         if(i%j==0)
         {
