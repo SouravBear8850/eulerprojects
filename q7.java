@@ -9,7 +9,7 @@ public class q7 {
       {
         if(i%j==0)
         c++;
-        
+        i=i/j;
       }
       if(c==10001)
      { num=i;
